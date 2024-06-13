@@ -1,16 +1,18 @@
 # Juego de Piedra, Papel o Tijera
 
-Un sencillo juego de Piedra, Papel o Tijera creado con HTML, CSS y JavaScript.
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) 
 
-## Descripción
-
-Este proyecto es una implementación web del clásico juego de Piedra, Papel o Tijera. Permite a los usuarios jugar contra la máquina en un entorno interactivo y visualmente atractivo. Los usuarios pueden introducir su nombre y seleccionar el número de partidas que desean jugar.
+Este proyecto es una implementación web del clásico juego de Piedra, Papel o Tijera. 
+Permite a los usuarios jugar contra la máquina en un entorno interactivo y visualmente atractivo.
+<br>
 
 ## Visita mi juego en GitHub Pages:
 
-[¡Juega aquí!](https://loret0g.github.io/piedraPapelTijera/)
+➡️ [¡Juega aquí!](https://loret0g.github.io/piedraPapelTijera/)
 
-## Uso
+<br>
+
+## Uso sencillo
 
 1. Introduce tu nombre en el campo "Introduce el nombre del jugador". (Este campo debe contener 4 letras y no debe empezar con un dígito).
 2. Selecciona el número de partidas que deseas jugar.
@@ -19,10 +21,8 @@ Este proyecto es una implementación web del clásico juego de Piedra, Papel o T
 5. El juego mostrará una animación y finalmente, de forma aleatoria, la selección de la máquina.
 6. Se muestra un historial de partidas donde se determina el ganador.
 
-## Tecnologías Utilizadas
 
-
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) 
+<br>
 
 ## Contribuciones
 
@@ -34,7 +34,8 @@ Las contribuciones son bienvenidas. Si deseas contribuir, por favor sigue los si
 4. Sube tus cambios (`git push origin feature/nueva-funcionalidad`).
 5. Crea un nuevo Pull Request.
 
+<br>
 
-## Créditos
+##
 
 Desarrollado por [Loreto Garde](https://github.com/loret0g).
