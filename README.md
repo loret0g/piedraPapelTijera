@@ -2,15 +2,13 @@
 
 Un sencillo juego de Piedra, Papel o Tijera creado con HTML, CSS y JavaScript.
 
-### Visita mi juego de Piedra, Papel o Tijera en GitHub Pages:
-
-[¡Juega aquí!](https://loret0g.github.io/piedraPapelTijera/)
-
-
 ## Descripción
 
 Este proyecto es una implementación web del clásico juego de Piedra, Papel o Tijera. Permite a los usuarios jugar contra la máquina en un entorno interactivo y visualmente atractivo. Los usuarios pueden introducir su nombre y seleccionar el número de partidas que desean jugar.
 
+## Visita mi juego en GitHub Pages:
+
+[¡Juega aquí!](https://loret0g.github.io/piedraPapelTijera/)
 
 ## Uso
 
