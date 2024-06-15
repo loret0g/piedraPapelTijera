@@ -6,15 +6,13 @@ Este proyecto es una implementación web del clásico juego de Piedra, Papel o T
 Permite a los usuarios jugar contra la máquina en un entorno interactivo y visualmente atractivo.
 <br>
 
-## Visita mi juego en GitHub Pages:
-
 ➡️ [¡Juega aquí!](https://loret0g.github.io/piedraPapelTijera/)
 
 <br>
 
 ## Uso sencillo
 
-1. Introduce tu nombre en el campo "Introduce el nombre del jugador". (Este campo debe contener 4 letras y no debe empezar con un dígito).
+1. Introduce tu nombre. (Este campo debe contener 4 letras y no debe empezar con un dígito).
 2. Selecciona el número de partidas que deseas jugar.
 3. Haz clic en el botón "Empezar" para iniciar el juego.
 4. Selecciona tu jugada (Piedra, Papel o Tijera) y haz clic en el botón "YA" para ver el resultado.
@@ -24,18 +22,6 @@ Permite a los usuarios jugar contra la máquina en un entorno interactivo y visu
 
 <br>
 
-## Contribuciones
-
-Las contribuciones son bienvenidas. Si deseas contribuir, por favor sigue los siguientes pasos:
-
-1. Haz un fork del proyecto.
-2. Crea una nueva rama (`git checkout -b feature/nueva-funcionalidad`).
-3. Realiza los cambios necesarios y haz commit (`git commit -am 'Añadir nueva funcionalidad'`).
-4. Sube tus cambios (`git push origin feature/nueva-funcionalidad`).
-5. Crea un nuevo Pull Request.
-
-<br>
-
 ##
 
-Desarrollado por [Loreto Garde](https://github.com/loret0g).
+Desarrollado por [Loreto](https://github.com/loret0g).
