@@ -1,0 +1,248 @@
+body {
+    margin: 0;
+    background-color: rgb(21, 21, 65);
+    font-family: Arial, sans-serif;
+    color: aliceblue;
+}
+
+#cabecera {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+#user {
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: #202040;
+    width: fit-content;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#user p {
+    margin: 1rem 0;
+}
+
+label, .error {
+    display: inline-block;
+    width: 15rem;
+    text-align: left;
+}
+
+input[type="text"], input[type="number"] {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 12.5rem;
+    box-sizing: border-box;
+}
+
+.error {
+    display: none;
+    color: #fa6565;
+    font-size: 0.9rem;
+}
+
+/** Recuadro número de partidas **/
+#num-partida h3 {
+    display: none;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    font-size: 2.5rem;
+    text-align: center;
+    border: 2px inset #00a6ff;
+    border-radius: 10px;
+    padding: 1.5rem;
+    background: linear-gradient(145deg, rgb(21, 21, 65), #333);
+    color: #0e577e;
+    box-shadow: 0 4px 8px rgba(0, 255, 234, 0.3),
+                inset 0 2px 4px rgba(0, 255, 234, 0.2);
+}
+
+/** BOTONES **/
+#btn-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1rem;
+}
+
+.btn-primary {
+    min-width: 6rem;
+    height: 2rem;
+    color: #2b2b2b;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+}
+
+#btn-start {
+    background: #ced4da;
+    box-shadow: 0 2px #adb5bd;
+}
+#btn-start:hover {
+    box-shadow: 0 3px #adb5bd;
+    top: 1px;
+}
+#btn-start:active {
+    box-shadow: 0 0 #adb5bd;
+    top: 5px;
+}
+
+#btn-reset {
+    background: #f0b02f;
+    box-shadow: 0 2px #e9cb55;
+    display: none;
+}
+#btn-reset:hover {
+    box-shadow: 0 3px #e7ab29;
+    top: 1px;
+}
+#btn-reset:active {
+    box-shadow: 0 0 #e7ab29;
+    top: 5px;
+}
+
+#btn-play {
+    min-width: 8.125rem;
+    height: 2.5rem;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background-size: 120% auto;
+    background-image: linear-gradient(315deg, #43cea2 0%, #185a9d 75%);
+}
+#btn-play:hover {
+    background-position: right center;
+}
+#btn-play:active {
+    top: 2px;
+}
+
+#jugador {
+    margin-bottom: 1vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Para alinear con el borde de arriba */
+    gap: 10vh;
+    flex-wrap: wrap; /* Permito que los elementos se envuelvan en pantallas pequeñas */
+}
+
+.cnt-general {
+    margin-left: 3vh;
+    margin-right: 3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(37, 37, 105);
+    width: 70vw;
+    height: 60vh;
+    border-radius: 20px;
+    border: 2px solid rgb(34, 34, 74);
+    box-shadow: inset 0px 0px 10px 0 rgb(9, 9, 69);
+}
+
+#table-result {
+    border: 2px solid rgb(62, 62, 105);
+    border-radius: 10px;
+    margin: 3vh auto;
+    max-height: 70vh;
+    overflow-y: auto;
+    box-sizing: border-box;
+    padding: 1rem;
+}
+
+#historial {
+    background-color: rgb(88, 88, 120);
+    color: rgb(33, 33, 33);
+    width: calc(100% + 2rem);
+    margin: -1rem -1rem 1rem -1rem; /* Negativo para ajustar el padding */
+    padding: 0.5rem;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 3px 3px 0 0;
+}
+
+#partidas {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+li {
+    padding: 1vh;
+}
+
+img {
+    width: 6.25rem;
+    height: 6.25rem;
+}
+
+.seleccionado {
+    border: 5px solid red;
+    opacity: 1;
+}
+
+.noSeleccionado {
+    opacity: 0.5;
+}
+
+/* Media queries para ajustar el diseño en pantallas más pequeñas */
+@media (max-width: 768px) {
+    #cabecera {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cnt-general {
+        width: 95vw;
+        height: auto; /* Dejar que la altura se ajuste automáticamente */
+    }
+
+    #table-result {
+        margin-right: 0;
+        width: 100%; /* Asegurar que ocupe todo el ancho disponible */
+    }
+}
+
+@media (max-width: 480px) {
+    label, .error {
+        width: 100%;
+    }
+
+    input[type="text"], input[type="number"] {
+        width: 100%;
+    }
+
+    .btn-primary, #btn-play {
+        width: 100%;
+        min-width: 0; /* Eliminar el ancho mínimo */
+    }
+}
